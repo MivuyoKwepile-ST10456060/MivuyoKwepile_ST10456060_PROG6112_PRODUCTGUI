@@ -1,8 +1,5 @@
 public interface IProductSales {
-    int[][] GetProductSale();
-
     int[][] GetProductSales();
-
     int GetTotalSales();
     int GetSalesOverLimit();
     int GetSalesUnderLimit();

@@ -16,7 +16,7 @@ public class ProductSalesApp extends JFrame {
 
         sales = new ProductSales() {
             @Override
-            public int[][] GetProductSale() {
+            public int[][] GetProductSales() {
                 return new int[0][];
             }
         };

@@ -1,4 +1,4 @@
-public abstract class ProductSales implements IProductSales {
+public class ProductSales implements IProductSales {
     private final int[][] salesData = {{300, 150, 700}, {250, 200, 600}};
 
     private final int SALES_LIMIT = 500;
